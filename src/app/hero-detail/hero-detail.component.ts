@@ -22,12 +22,19 @@ export class HeroDetailComponent implements OnInit {
   ngOnInit(): void {
     this.getHero();
   }
-
+  /*
+    O route.snapshot é uma imagem estática das informações da rota logo após a criação do componente.
+    O paramMap é um dicionário de valores de parâmetros de rota extraídos da URL. A "id"chave retorna o id do herói para buscar.
+    Os parâmetros de rota são sempre strings. O operador JavaScript (+) converte a string em um número, que é o que um herói iddeve ser.
+  */
   getHero(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     this.heroService.getHero(id).subscribe((hero) => (this.hero = hero));
   }
-
+  /*
+  Adicione um goBack() método à classe de componente que navega uma etapa
+  para trás na pilha de histórico do navegador usando o Location serviço que você injetou anteriormente .
+  */
   goBack(): void {
     this.location.back();
   }
