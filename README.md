@@ -2,6 +2,35 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
+# Descrição do Projeto:
+Aplicação web em Angular, tutorial da própria documentação para destrinchar a mesma de forma mais dinâmica :)
+
+## Demonstrando aplicação:
+<li>
+    Na primeira tela encontramos o dashboard da aplicação, listando os 4 primeiros heróis, a aplicação é muito interativa, clicando nesses containers você consegue visualizar os detalhes do campeão selecioonado, logo abaixo temos um campo de busca, onde pode ser encontrado o herói desejado pesquisando pelo seu nome.
+</li>
+<br/>
+<div align="center">
+    <img width= 500 height= 300 src="imagensREADME/dashboard.PNG" alt="nome"/>
+</div>
+<br/>
+<br/>
+<li>
+    O usuário consegue visualizar os detalhes de cada herói selecionado, podendo ver seu id, trocar seu nome ou voltar para a tela principal.
+</li>
+<br/>
+<div align="center">
+    <img width= 400 height= 500 src="imagensREADME/heroDetail.PNG" alt="nome"/>
+</div>
+<br/>
+<li>
+    Aqui temos uma lista com todos os heróis que você possui, podendo ser adicionados ou excluidos a qualquer momento, ao selecionar o herói que deseja você vai para os detalhes do herói como mostrado acima.
+</li>
+<br/>
+<div align="center">
+    <img width= 300 height= 500 src="imagensREADME/heros.PNG" alt="nome"/>
+</div>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
