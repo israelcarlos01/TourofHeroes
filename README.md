@@ -7,7 +7,7 @@ Aplicação web em Angular, tutorial da própria documentação para destrinchar
 
 ## Demonstrando aplicação:
 <li>
-    Na primeira tela encontramos o dashboard da aplicação, listando os 4 primeiros heróis, a aplicação é muito interativa, clicando nesses containers você consegue visualizar os detalhes do campeão selecioonado, logo abaixo temos um campo de busca, onde pode ser encontrado o herói desejado pesquisando pelo seu nome.
+    Na primeira tela encontramos o dashboard da aplicação, listando os 4 primeiros heróis, a aplicação é muito interativa, clicando nesses containers você consegue visualizar os detalhes do campeão selecionado, logo abaixo temos um campo de busca, onde pode ser encontrado o herói desejado pesquisando pelo seu nome.
 </li>
 <br/>
 <div align="center">
@@ -24,7 +24,7 @@ Aplicação web em Angular, tutorial da própria documentação para destrinchar
 </div>
 <br/>
 <li>
-    Aqui temos uma lista com todos os heróis que você possui, podendo ser adicionados ou excluidos a qualquer momento, ao selecionar o herói que deseja você vai para os detalhes do herói como mostrado acima.
+    Aqui temos uma lista com todos os heróis que você possui, podendo ser adicionado ou excluido um novo campeão a qualquer momento, ao selecionar o herói que deseja você vai para os detalhes do herói como mostrado acima.
 </li>
 <br/>
 <div align="center">
